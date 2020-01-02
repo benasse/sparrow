@@ -1,7 +1,7 @@
 +++
 # Contact widget.
 widget = "contact"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
+headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 130  # Order that this section will appear.
 
@@ -17,4 +17,4 @@ autolink = true
 #   2: formspree.io
 email_form = 2
 +++
-
+For any question regarding the project or its ecosystem, you can contact us with the form above.

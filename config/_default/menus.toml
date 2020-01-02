@@ -4,29 +4,84 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
-  url = "#about"
-  weight = 10
-
-[[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Blog"
+  url = "/post"
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Doc"
+  url = "/docs"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
-  weight = 40
-
-[[main]]
   name = "Contact"
-  url = "#contact"
+  url = "/contact"
   weight = 60
+
+[[main_right]]
+  name = "<i class=\"fab fa-github-alt\" style=\"color: #333; font-size: 1rem; line-height: 1.25\"></i>"
+  post = ""
+  url = "https://github.com/benasse/sparrow"
+  weight = 10
+
+[[docs]]
+  name = "Getting Started"
+  weight = 10
+  url = "/docs/"
+
+[[docs]]
+  name = "Hardware"
+  weight = 20
+  url = "/docs/hardware"
+  identifier = "hardware"
+
+[[docs]]
+  name = "Validated harware"
+  weight = 31
+  url = "#validated-hardware"
+  parent = "hardware"
+
+[[docs]]
+  name = "Compatible harware"
+  weight = 32
+  url = "#compatible-hardware"
+  parent = "hardware"
+
+[[docs]]
+  name = "Installation"
+  weight = 30
+  url = "/docs/install"
+  identifier = "installation"
+
+[[docs]]
+  name = "Requirements"
+  weight = 31
+  url = "#requirements"
+  parent = "installation"
+
+[[docs]]
+  name = "Installation"
+  weight = 32
+  url = "#installation"
+  parent = "installation"
+
+[[docs]]
+  name = "Troubleshooting"
+  weight = 50
+  url = "/docs/troubleshooting/"
+  identifier = "troubleshooting"
+
+[[docs]]
+  name = "Tips"
+  weight = 60
+  url = "/docs/tips/"
+  identifier = "tips"
+
+[[docs]]
+  name = "Contribute"
+  weight = 70
+  url = "/docs/contribute/"
+  identifier = "contribute"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
