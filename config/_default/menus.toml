@@ -57,13 +57,13 @@
 [[docs]]
   name = "Requirements"
   weight = 31
-  url = "#requirements"
+  url = "/docs/install#requirements"
   parent = "installation"
 
 [[docs]]
   name = "Installation"
   weight = 32
-  url = "#installation"
+  url = "/docs/install#installation"
   parent = "installation"
 
 [[docs]]
