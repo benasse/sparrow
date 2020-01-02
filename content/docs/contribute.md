@@ -5,6 +5,9 @@ date = 2020-01-02
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 weight = 20
+[menu.docs]
+  parent = "getting-started"
+  weight = 11
 +++
 ## Contribute by opening a issue
 Sparrow uses github as its central discussion platform, do not hesitate if you have:

@@ -28,6 +28,7 @@
   name = "Getting Started"
   weight = 10
   url = "/docs/"
+  identifier = "getting-started"
 
 [[docs]]
   name = "Hardware"
@@ -36,19 +37,19 @@
   identifier = "hardware"
 
 [[docs]]
-  name = "Validated harware"
+  name = "Validated hardware"
   weight = 31
   url = "#validated-hardware"
   parent = "hardware"
 
 [[docs]]
-  name = "Compatible harware"
+  name = "Compatible hardware"
   weight = 32
   url = "#compatible-hardware"
   parent = "hardware"
 
 [[docs]]
-  name = "Installation"
+  name = "Install"
   weight = 30
   url = "/docs/install"
   identifier = "installation"
@@ -76,12 +77,6 @@
   weight = 60
   url = "/docs/tips/"
   identifier = "tips"
-
-[[docs]]
-  name = "Contribute"
-  weight = 70
-  url = "/docs/contribute/"
-  identifier = "contribute"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
