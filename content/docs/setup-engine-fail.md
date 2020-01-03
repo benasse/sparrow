@@ -25,23 +25,23 @@ The write speed of the sd card is a bit slow.
 #### 1. Increase nginx timeout
 
 Override the default config
-```
+```bash
 cat > /etc/nginx/conf.d/sparrow.conf <<EOF
 proxy_connect_timeout 600;
 proxy_send_timeout 600;
 proxy_read_timeout 600;
 send_timeout 600;
 EOF
-```
+``
 Reload nginx
-```
+```bash
 service nginx reload
 ```
 
 #### 2. Increase wazo-setupd timeout
 
 Override the default config
-```
+```bash
 cat > /etc/wazo-setupd/conf.d/sparrow.yml <<EOF
 auth:
   timeout: 30
@@ -52,26 +52,26 @@ sysconfd:
 EOF
 ```
 Restart the service
-```
+```bash
 service wazo-setupd restart
 ```
 #### 3. Remove the half done configuration of wazo-provd
-```
+```bash
 rm -Rf /var/lib/wazo-provd/jsondb
 ```
 Restart the service
-```
+```bash
 service wazo-provd restart
 ```
 #### 4. Remove the half done configuration of wazo-auth
-```
+```bash
 wazo-auth-cli user delete root
 ```
 Restart the service
-```
+```bash
 service wazo-provd restart
 ```
 #### 5. Start the installation again
-```
+```bash
 ansible-playbook -i inventories/uc-engine uc-engine.yml
 ```

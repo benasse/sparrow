@@ -22,18 +22,18 @@ The write speed of the sd card is a bit slow
 
 ### Resolution
 #### 1. Increase timeout
-```
+```bash
 cat > /etc/wazo-auth-cli/conf.d/sparrow.yml <<EOF
 auth:
   timeout: 30
 EOF
 ```
 #### 2. Regenerate keys
-```
+```bash
 wazo-auth-keys service update --recreate
 ```
 #### 3. Start the installation again
-```
+```bash
 ansible-playbook -i inventories/uc-engine uc-engine.yml
 ```
 

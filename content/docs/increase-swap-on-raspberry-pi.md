@@ -15,6 +15,6 @@ Edit `/etc/dphys-swapfile` with your favorite text editor and set `CONF_SWAPSIZE
 CONF_SWAPSIZE=2048
 ```
 Apply the configuration with:
-```
+```bash
 service dphys-swapfile restart
 ```

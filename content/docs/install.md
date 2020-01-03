@@ -33,11 +33,11 @@ engine_api_configure_wizard = true
 engine_api_root_password = ****
 ```
 #### 4. Install ansible dependency
-```
+```bash
 ansible-galaxy install -r requirements-postgresql.yml
 ```
 #### 5. Start installation
-```
+```bash
 ansible-playbook -i inventories/uc-engine uc-engine.yml
 ```
 If you get an error please refer on the troubleshooting part of the documentation.
