@@ -9,7 +9,7 @@ Sparrow is an unofficial build for armhf architecture of the awesome <a href="ht
 It allows you to host complete Open Source, and programable telephone system on a <a href="https://www.raspberrypi.org/" target="_blank" >Raspberry Pi</a>
 
 ## Who is behind Sparrow
-Currently sparrow is maintained and hosted by [Benoit Stahl](https://github.com/benasse)
+Currently sparrow is maintained and hosted by [Benoît Stahl](https://github.com/benasse).
 
 ## Why Sparrow / Wazo ?
 
@@ -25,8 +25,8 @@ Currently sparrow is maintained and hosted by [Benoit Stahl](https://github.com/
   * ...
 
 ## Running Sparrow is the same as running Wazo?
-This is very close for now the only limitation is:
-* the Opus codec is disabled
+Using sparrow is exactly the same as using wazo.
+For now the only limitation is that the Opus codec is disabled.
 
 ## What packages are distributed and where can I find the sources ?
 Sparrow is based on exactly the same source code as Wazo available on [Github](https://github.com/wazo-platform).

@@ -39,13 +39,13 @@
 [[docs]]
   name = "Validated hardware"
   weight = 31
-  url = "#validated-hardware"
+  url = "docs/hardware#validated-hardware"
   parent = "hardware"
 
 [[docs]]
   name = "Compatible hardware"
   weight = 32
-  url = "#compatible-hardware"
+  url = "docs/hardware#compatible-hardware"
   parent = "hardware"
 
 [[docs]]
