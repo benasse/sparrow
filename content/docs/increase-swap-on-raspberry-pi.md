@@ -10,7 +10,6 @@ weight = 51
   parent = "tips"
   weight = 51
 +++
-## Increase swap on Raspberry Pi
 Edit `/etc/dphys-swapfile` with your favorite text editor and set `CONF_SWAPSIZE` parameters like above:
 ```
 CONF_SWAPSIZE=2048

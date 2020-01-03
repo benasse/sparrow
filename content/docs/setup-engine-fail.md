@@ -18,7 +18,10 @@ dy>\r\n</html>\r\n", "content_length": "183", "content_type": "text/html", "date
 de was 504 and not [201]: HTTP Error 504: Gateway Time-out", "redirected": false, "server": "nginx/1.14.2", "status": 504, "url": "ht
 tps://localhost:443/api/setupd/1.0/setup"}
 ```
-### Resolution:
+### Possible cause
+The write speed of the sd card is too slow is a bit slow
+
+### Resolution
 #### 1. Increase nginx timeout
 
 Override the default config
