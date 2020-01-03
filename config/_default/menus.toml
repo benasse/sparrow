@@ -39,13 +39,13 @@
 [[docs]]
   name = "Validated hardware"
   weight = 31
-  url = "../hardware#validated-hardware"
+  url = "/docs/hardware#validated-hardware"
   parent = "hardware"
 
 [[docs]]
   name = "Compatible hardware"
   weight = 32
-  url = "../hardware#compatible-hardware"
+  url = "/docs/hardware#compatible-hardware"
   parent = "hardware"
 
 [[docs]]
@@ -57,13 +57,13 @@
 [[docs]]
   name = "Requirements"
   weight = 31
-  url = "../install#requirements"
+  url = "/docs/install#requirements"
   parent = "installation"
 
 [[docs]]
   name = "Installation"
   weight = 32
-  url = "../install#installation"
+  url = "/docs/install#installation"
   parent = "installation"
 
 [[docs]]
