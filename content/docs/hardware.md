@@ -8,8 +8,8 @@ weight = 20
 +++
 ## Validated hardware
 Sparrow has been tested and works perfectly on the following hardware:
-* Raspberry Pi 4 Modèle B 4 Go: [Amazon FR](https://amzn.to/2ZOWTzp)
-* SanDisk MicroSDHC Ultra 128GB: [Amazon FR](https://amzn.to/39x3K55)
+* Raspberry Pi 4 Modèle B 4 Go: [Amazon FR](https://amzn.to/2ZOWTzp) [Aliexpress](http://s.click.aliexpress.com/e/tPUVod3w)
+* SanDisk MicroSDHC Ultra 128GB: [Amazon FR](https://amzn.to/39x3K55) [Aliexpress](http://s.click.aliexpress.com/e/tPUVod3w)
 
 ### Benchmark
 For the moment we have not yet made a functional benchmark, but it should come.
