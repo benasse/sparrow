@@ -34,6 +34,6 @@ The software release notes are the same as Wazo platform and available [here](ht
 To minimize the work to be done to make the build available. We worked to present the repositories in the same way as wazo. For now the repository management requires some manual operations, I will try to automate them for the next releases.
 
 The update procedure is identical to Wazo.
-You have jute to launch `wazo-upgrade`
+You just have to launch `wazo-upgrade`
 
-Detailed update documentation and intalization of an archive version should be available in the coming days.
+The documentation of how to update and how to install an archive version should be available in the coming days.
