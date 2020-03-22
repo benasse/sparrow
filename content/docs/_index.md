@@ -34,5 +34,5 @@ Sparrow is based on exactly the same source code as Wazo available on [Github](h
 However, some packages have been modified to be able to be compiled on arm processor or to allow the use of specific repositories.
 The list of modified packages is available here:
 
-* asterisk: https://github.com/benasse/asterisk/tree/moineau
-* wazo-dist: https://github.com/benasse/wazo-dist/tree/sparrow
+* asterisk: https://github.com/benasse/asterisk/releases
+* wazo-dist: https://github.com/benasse/wazo-dist/releases
