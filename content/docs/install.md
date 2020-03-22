@@ -19,7 +19,7 @@ apt install -y ansible git
 
 #### 2. Clone repo containing ansible recipes for the Wazo Platform
 ```bash
-git clone -b sparrow https://github.com/benasse/wazo-ansible/
+git clone https://github.com/benasse/wazo-ansible/
 ```
 
 #### 3. Configure your application password
