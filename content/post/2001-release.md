@@ -5,7 +5,7 @@ title: "Sparrow 20.01 Released"
 subtitle: ""
 summary: ""
 authors: []
-tags: [sparrow, wazo, release]
+tags: [sparrow, wazo, release, news]
 categories: [release]
 date: 2020-01-15T23:14:47+01:00
 lastmod: 2020-01-15T23:16:47+01:00
