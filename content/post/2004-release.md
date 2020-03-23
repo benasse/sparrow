@@ -45,6 +45,8 @@ The next releases will require less manual configuration and will be done identi
 I've made some changes to the way I manage git repositories that require modifications to the wazo's ones.
 For more traceability, each release is now tagged in git : see [asterisk fork](https://github.com/benasse/asterisk/releases) and [wazo-dist fork](https://github.com/benasse/wazo-dist/releases)
 
+The [ansible installer](https://github.com/benasse/wazo-ansible) now uses the `master` branch and no longer the `sparrow` branch of the repository. This was done in order to simplify the installation as much as possible.
+
 ## Upgrade
 
 The update procedure is identical to Wazo.
