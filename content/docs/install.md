@@ -42,5 +42,5 @@ ansible-playbook -i inventories/uc-engine uc-engine.yml
 ```
 If you get an error please refer on the troubleshooting part of the documentation.
 #### 6. Login to wazo-ui
-Wazo-ui is available on port 443 of your engine, you can access it via an internet browser.
+Wazo-ui is available on port `443` of your engine, you can access it via an internet browser.
 Use `root` as login and the password that you defined at the start of the installation.
