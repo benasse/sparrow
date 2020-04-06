@@ -3,11 +3,11 @@ title = 'Installation fails on "Create service users with wazo-auth-keys"'
 date = 2020-01-02
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
-weight = 41
+weight = 71
 
 [menu.docs]
-  parent = "troubleshooting"
-  weight = 41
+  parent = "troubleshoot"
+  weight = 71
 +++
 ### Complete error message
 ```

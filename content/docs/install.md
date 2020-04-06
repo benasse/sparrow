@@ -17,12 +17,12 @@ weight = 30
 apt install -y ansible git
 ```
 
-#### 2. Clone repo containing ansible recipes for the Wazo Platform
+#### 2. Clone repository containing ansible recipes for the installation
 ```bash
 git clone https://github.com/benasse/wazo-ansible/
 ```
 
-#### 3. Configure your application password
+#### 3. Configure the application password
 ```bash
 cd wazo-ansible
 ```
@@ -36,11 +36,10 @@ engine_api_root_password = ****
 ```bash
 ansible-galaxy install -r requirements-postgresql.yml
 ```
-#### 5. Start installation
+#### 5. Install wazo-platform
 ```bash
 ansible-playbook -i inventories/uc-engine uc-engine.yml
 ```
 If you get an error please refer on the troubleshooting part of the documentation.
-#### 6. Login to wazo-ui
-Wazo-ui is available on port `443` of your engine, you can access it via an internet browser.
-Use `root` as login and the password that you defined at the beginning of the installation.
+
+When the installation is finished, you can consult the [quick start](../quick-start) section.

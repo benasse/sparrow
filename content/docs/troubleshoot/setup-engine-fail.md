@@ -3,11 +3,11 @@ title = 'Installation fails on "Setup engine"'
 date = 2020-01-02
 toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
-weight = 42
+weight = 72
 
 [menu.docs]
-  parent = "troubleshooting"
-  weight = 42
+  parent = "troubleshoot"
+  weight = 72
 +++
 ### Complete error message
 ```

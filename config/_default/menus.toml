@@ -9,7 +9,7 @@
   weight = 20
 
 [[main]]
-  name = "Doc"
+  name = "Documentation"
   url = "/docs"
   weight = 30
 
@@ -37,46 +37,40 @@
   identifier = "hardware"
 
 [[docs]]
-  name = "Validated hardware"
-  weight = 31
-  url = "/docs/hardware#validated-hardware"
-  parent = "hardware"
-
-[[docs]]
-  name = "Compatible hardware"
-  weight = 32
-  url = "/docs/hardware#compatible-hardware"
-  parent = "hardware"
-
-[[docs]]
   name = "Install"
   weight = 30
   url = "/docs/install"
   identifier = "installation"
 
 [[docs]]
-  name = "Requirements"
-  weight = 31
-  url = "/docs/install#requirements"
-  parent = "installation"
+  name = "Quick start"
+  weight = 40
+  url = "/docs/quick-start"
+  identifier = "quick-start"
 
 [[docs]]
-  name = "Installation"
-  weight = 32
-  url = "/docs/install#installation"
-  parent = "installation"
-
-[[docs]]
-  name = "Troubleshooting"
+  name = "Dig deeper"
   weight = 50
-  url = "/docs/troubleshooting/"
-  identifier = "troubleshooting"
+  url = "/docs/dig-deeper"
+  identifier = "dig-deeper"
+
+[[docs]]
+  name = "Nodered"
+  weight = 51
+  url = "/docs/dig-deeper#nodered"
+  parent = "dig-deeper"
 
 [[docs]]
   name = "Tips"
   weight = 60
   url = "/docs/tips/"
   identifier = "tips"
+
+[[docs]]
+  name = "Troubleshoot"
+  weight = 70
+  url = "/docs/troubleshoot/"
+  identifier = "troubleshoot"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

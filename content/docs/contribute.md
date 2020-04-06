@@ -20,6 +20,10 @@ All of the sources for this website are available on github in the following rep
 
 You can simply contribute to the documentation by clicking on the link "<i class="fas fa-pen" pr-2 ></i> Edit this page" present at the bottom of all documentation pages. This redirects you to github to make a pull request.
 
+## Support the project using affiliate links
+If you need new hardware to install sparrow, you can buy them using the link on the [hardware](../hardware) page.
+The author will make a small profit.
+
 ## Contribute financially
 You can have a multitude of reasons to contribute financially:
 * Thank the author for the time spent setting up the build script and the hosting infrastructure for the project
@@ -29,7 +33,3 @@ You can have a multitude of reasons to contribute financially:
 
 Do not hesitate to contact.
 You can make your donation via [PayPal](https://www.paypal.me/benasse)
-
-## Support the project using affiliate links
-If you need new hardware to install sparrow, you can buy them using the link on the [hardware](../hardware) page.
-The author will make a small profit.
