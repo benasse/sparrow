@@ -41,7 +41,38 @@ You don't have to do any configuration inside it !
 ![tenant-dorpdown](/img/quick-start/tenant-dropdown.png)
 
 ## 3. Create contexts
-TODO
+In the `⚙️ Advanced > 🔀 Contexts` menu we will create 3 contexts:
+* `internal` context which will contain the system numbers
+* `outgoing` context which will contain calls to outside
+* `incall` context which will contain calls from outside
+
+Parameter to be filled in for the internal context:
+* Name: `sparrow-internal`
+* Label: `sparrow-internal`
+* Type: `Internal`
+
+Parameter to be filled in for the incall context:
+* Name: `sparrow-from-extern`
+* Label: `sparrow-from-extern`
+* Type: `Outcall`
+
+Parameter to be filled in for the outgoing context:
+* Name: `sparrow-to-extern`
+* Label: `sparrow-to-extern`
+* Type: `Incall`
+
+Once the contexts are created edit the `sparrow-internal` context for:
+* include the `sparrow-to-extern` context
+* declare a number range for the users
+
+![include-from-extern](/img/quick-start/include-to-extern.png)
+
+![user-range](/img/quick-start/user-range.png)
+
+Finally edit the `sparrow-from-extern` context to add a range for incoming calls.
+
+![incall-range](/img/quick-start/incall-range.png)
+
 ## 4. Create a user
 TODO
 ## 5. Create a SIP trunk
