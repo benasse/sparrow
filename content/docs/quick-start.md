@@ -7,7 +7,13 @@ type = "docs"  # Do not modify.
 weight = 40
 
 +++
+## 0. Introduction
+
 Starting from a new installation, we will configure a user who will be able to make and receive calls via a SIP trunk.
+
+{{% alert note %}}
+This quick start is not specific to sparrow and can very well be used with a Wazo engine.
+{{% /alert %}}
 
 ## 1. Login to the administration interface
 
@@ -74,11 +80,65 @@ Finally edit the `sparrow-from-extern` context to add a range for incoming calls
 ![incall-range](/img/quick-start/incall-range.png)
 
 ## 4. Create a user
-TODO
-## 5. Create a SIP trunk
-TODO
-## 6. Create a incall rule
-TODO
-## 7. Create a outcall rule
-TODO
 
+A `User` is a telephone user, he can have one or more lines, one or more DIDs,
+one or more devices, he can be assigned call rights, groups ...
+
+To create one go to the `👤 User` menu and add a user with the following parameters:
+* Firstname: `Sparrow`
+* Name: `User`
+* Email: `no@ma.il`
+* Passoword: `secret`
+* Context: `sparrow-internal`
+* Number: `100`
+* Protocol: `SIP`
+
+![user-creation](/img/quick-start/user-creation.png)
+
+To use this user with a SIP telephone, you can go to the `🔁 line` menu, edit your user's line and retriver the auto-generated `Username` and the `Password`.
+
+## 5. Create a SIP trunk
+
+A trunk sip allows a link between 2 systems using the SIP protocol.
+Operators can enable calls to the public network via a SIP trunk.
+
+To add a SIP trunk go to the `💻 Trunk` menu.
+
+The configuration of a SIP trunk is complex and depends on your operator.
+We won't go into detail about the configuration options of a trunk here.
+
+For the example we are going to create one with minimum parameters:
+* Name: `sparrow-trunk`
+* Username: `sparrow-trunk`
+* Host: `Dynamic`
+* Context: `sparrow-from-external`.
+
+## 6. Create a incall rule
+
+An incall rule makes it possible to associate a number provided by the operator with an internal resource.
+
+To create one go to the `➡️ Incalls` menu and add a entry with the following parameters:
+* Context: `sparrow-from-extern`
+* Number: `0100000000`
+* Destination: `User`
+* User: `Sparrow User`
+
+![incall-creation](/img/quick-start/incall-creation.png)
+
+## 7. Create a outcall rule
+An outgoing call rule allows calls to be routed to the trunk operator.
+
+In our example we will route all the numbers not known by the system to the trunk we have created.
+
+To create a outcall rule go to the `⬅️ Outcalls` menu and add a entry with the following parameters:
+* Name: to-sparrow-trunk
+* Trunks: sparrow-trunk (sip)
+* Context: `sparrow-to-extern`
+* Extension: `_X.`
+
+![outcall-creation](/img/quick-start/outcall-creation.png)
+
+## 8. Conclsion
+We have seen how to start from a virgin installation, how to create a user and create an interconnection with an operator.
+
+Feel free to suggest changes or ask questions at [github](https://github.com/benasse/sparrow/issues).
