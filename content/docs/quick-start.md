@@ -141,4 +141,4 @@ To create a outcall rule go to the `⬅️ Outcalls` menu and add a entry with t
 ## 8. Conclsion
 We have seen how to start from a virgin installation, how to create a user and create an interconnection with an operator.
 
-Feel free to suggest changes or ask questions at [github](https://github.com/benasse/sparrow/issues).
+Feel free to suggest changes or ask questions on [github](https://github.com/benasse/sparrow/issues).

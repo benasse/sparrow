@@ -14,7 +14,9 @@ TODO
 TODO
 ### Run nodered
 TODO
-### Install wazo plugin
+### Install wazo nodes in nodered
 TODO
-### Configure websocket connexion
+### Create Wazo API user on the engine
+TODO
+### Configure websocket connexion in nodered
 TODO
