@@ -60,12 +60,12 @@ Parameter to be filled in for the internal context:
 Parameter to be filled in for the incall context:
 * Name: `sparrow-from-extern`
 * Label: `sparrow-from-extern`
-* Type: `Outcall`
+* Type: `Incall`
 
 Parameter to be filled in for the outgoing context:
 * Name: `sparrow-to-extern`
 * Label: `sparrow-to-extern`
-* Type: `Incall`
+* Type: `Outcall`
 
 Once the contexts are created edit the `sparrow-internal` context for:
 * include the `sparrow-to-extern` context
