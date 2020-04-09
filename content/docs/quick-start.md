@@ -131,8 +131,8 @@ An outgoing call rule allows calls to be routed to the trunk operator.
 In our example we will route all the numbers not known by the system to the trunk we have created.
 
 To create a outcall rule go to the `⬅️ Outcalls` menu and add a entry with the following parameters:
-* Name: to-sparrow-trunk
-* Trunks: sparrow-trunk (sip)
+* Name: `to-sparrow-trunk`
+* Trunks: `sparrow-trunk (sip)`
 * Context: `sparrow-to-extern`
 * Extension: `_X.`
 
