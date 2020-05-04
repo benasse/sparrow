@@ -19,7 +19,7 @@ de was 504 and not [201]: HTTP Error 504: Gateway Time-out", "redirected": false
 tps://localhost:443/api/setupd/1.0/setup"}
 ```
 ### Possible cause
-The write speed of the sd card is a bit slow.
+The write speed of the sd card is a bit slow, or your raspberry is a bit hot due to the install and under-clocks itself to cool.
 
 ### Resolution
 #### 1. Increase nginx timeout
