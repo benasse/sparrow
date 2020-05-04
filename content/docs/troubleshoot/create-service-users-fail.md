@@ -18,7 +18,7 @@ Pool(host='localhost', port=9497): Read timed out. (read timeout=10)", "stderr_l
 497): Read timed out. (read timeout=10)"], "stdout": "", "stdout_lines": []}
 ```
 ### Possible cause
-The write speed of the sd card is a bit slow
+The write speed of the sd card is a bit slow, or your raspberry is a bit hot due to the install and under-clocks itself to cool.
 
 ### Resolution
 #### 1. Increase timeout
