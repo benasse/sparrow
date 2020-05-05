@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 The first public release of potoo is available under AGPL-3.0 License.
-Its Source code is available on [github](https://github.com/benasse/potoo).
+Its Source code is hosted on [github](https://github.com/benasse/potoo).
 
 Potoo is software that communicates with VoIP ecosystem and particularly well with Wazo engines.
 It is coded in python, and allows from a http call to launch python script or ansible playbook.
